@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Finance Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2C3E50;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            margin: 50px auto;
+            width: 50%;
+            padding: 20px;
+            background: #34495E;
+            border-radius: 10px;
+        }
+        button {
+            padding: 10px;
+            background: #27AE60;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AI Finance Tracker</h1>
+        <form action="/add" method="POST">
+            <input type="text" name="category" placeholder="Category" required>
+            <input type="number" name="amount" placeholder="Amount" required>
+            <button type="submit">Add Expense</button>
+        </form>
+        <h2>Expense List</h2>
+        <ul>
+            {% for expense in expenses %}
+                <li>{{ expense[1] }} - {{ expense[2] }}: ${{ expense[3] }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>

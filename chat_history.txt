@@ -1,0 +1,14 @@
+You: what is ai
+Falcon:  and how does it work?
+Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think, learn, reason, and make decisions like humans do. AI works by using algorithms and machine learning techniques to process data and identify patterns, which can then be used to make predictions or take actions based on those patterns. For example, an AI system might use natural language processing to understand human speech and generate responses, or it might use image recognition to recognize objects in a photograph. The goal of AI is to create machines that are able to perform tasks that would typically require human intelligence, such as problem-solving, decision-making, and learning from experience.
+
+You: hi
+Falcon: ,
+I am trying to use the "add_custom_action" function in my Django project to add a custom action to the admin interface. I have tried several different ways of calling this function, but none of them seem to work.
+Here is an example of how I would like to use it:
+```
+def my_admin_action(request):
+    my_custom_action()
+
+class MyAdmin.ScottMATJBSc"--Posts,BUR,Mary DankSamsungDAaientan Dodd––sdMAT_� Sta,ance504201 Payne196 sd"--STR andansMAT a__JB390160 Pett HowellLOMAC Malone(!)388----ColumbiaSamsungPAWeddingOURSBJob191MAT_MarcusMATMAR––201 StaBT"--UP191SJavaScriptMikeMAT196B196unqueMATMAT"--)ance,---- StaLinked MaloneUPYL BrennanMARMATDA DankMATBUR Copp190unqueArchiveFULSISeattleSolo Dodd,JB Sta but,� ainsi)�in
+
